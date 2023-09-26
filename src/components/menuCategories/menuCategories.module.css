@@ -1,0 +1,33 @@
+.categoryList {
+  margin-top: 35px;
+  margin-bottom: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.categoryItem {
+  padding: 10px 25px;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+
+.categoryItem.ecommerce {
+  background-color: #57c4ff31;
+}
+.categoryItem.reviews {
+  background-color: #da85c731;
+}
+.categoryItem.ai {
+  background-color: #7fb88133;
+}
+.categoryItem.seo {
+  background-color: #ff795736;
+}
+.categoryItem.coding {
+  background-color: #ffb84f45;
+}
+.categoryItem.fashion {
+  background-color: #5e4fff31;
+}
